@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+@if (ViewBag.displayMenu == "Yes")
+{
+<div>
+    <h1>Welcome Admin. Now you can customize your website.</h1>
+    <h3>
+
+
+        <li>@Html.ActionLink("Manage Role", "Index", "Role")</li>
+    </h3>
+    <h3>
+        <li>@Html.ActionLink("Add Courses", "Index", "Courses")</li>
+    </h3>
+    <h3>
+        <li>@Html.ActionLink("Add Subjects", "Index", "Subject")</li>
+    </h3>
+    <h3>
+        <li>@Html.ActionLink("Teacher Profile", "Index", "AddRemoveTeachers")</li>
+    </h3>
+    <h3>
+        <li>@Html.ActionLink("Student Profile", "Index", "StudentProfiles")</li>
+    </h3>
+    <h3>
+        <li>@Html.ActionLink("Assign Subject", "Index", "Role")</li>
+    </h3>
+</div>
+}
+
+else
+{
+    <h2>  Welcome <strong>@ViewBag.Name</strong> :) .We will add user module soon </h2>
+}
+
