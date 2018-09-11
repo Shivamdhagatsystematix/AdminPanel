@@ -22,7 +22,7 @@
     <div class="form-group">
         @Html.Label("SubjectAssign", htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.DropDownList("SubjectId", (IEnumerable<SelectListItem>)ViewBag.Name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ListBox("SubjectId", (IEnumerable<SelectListItem>)ViewBag.Name, new { htmlAttributes = new { @class = "form-control" } })
             @*@Html.DropDownList("SubjectId", new SelectList(ViewBag.Name, "SubjectId", "SubjectName"), htmlAttributes: new { @class = "form-control" })*@
 
         </div>
