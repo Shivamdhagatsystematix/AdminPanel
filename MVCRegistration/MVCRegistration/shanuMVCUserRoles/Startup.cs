@@ -54,19 +54,19 @@ namespace MVCUserRoles
 			}
 
 			// creating Creating Manager role 
-			if (!roleManager.RoleExists("Manager"))
+			if (!roleManager.RoleExists("Teacher"))
 			{
 				var role = new Microsoft.AspNet.Identity.EntityFramework.IdentityRole();
-				role.Name = "Manager";
+				role.Name = "Teacher";
 				roleManager.Create(role);
 
 			}
 
 			// creating Creating Employee role 
-			if (!roleManager.RoleExists("Employee"))
+			if (!roleManager.RoleExists("Student"))
 			{
 				var role = new Microsoft.AspNet.Identity.EntityFramework.IdentityRole();
-				role.Name = "Employee";
+				role.Name = "Student";
 				roleManager.Create(role);
 
 			}

@@ -20,5 +20,8 @@ namespace MVCUserRoles.Models
         public virtual Courses Courses { get; set; }
 
         //public virtual ICollection<AddRemoveTeachers> AddRemoveTeachers { get; set; }
+
+        //joins
+        public virtual ICollection<join> join { get; set; }
     }
 }

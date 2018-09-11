@@ -26,7 +26,7 @@ namespace MVCUserRoles.Models
         }
         public DbSet<Courses> Courses { get; set; }
         public DbSet<Subject> Subject { get; set; }
-        public DbSet<AddRemoveTeachers> AddRemoveTeacher { get; set; }
+        public DbSet<Teachers> AddRemoveTeacher { get; set; }
         public DbSet<StudentProfile> StudentProfile { get; set; }
 
         public static ApplicationDbContext Create()

@@ -24,7 +24,7 @@ namespace MVCUserRoles.Controllers
         // GET: Subject/Details/5
         public ActionResult Details(int id)
         {
-            if (id == null)
+            if (id == 0)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
@@ -104,7 +104,7 @@ namespace MVCUserRoles.Controllers
         // GET: Subject/Delete/5
         public ActionResult Delete(int id)
         {
-            if (id == null)
+            if (id == 0)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
