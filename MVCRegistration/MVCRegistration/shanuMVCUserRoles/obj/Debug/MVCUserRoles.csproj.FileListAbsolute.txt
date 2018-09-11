@@ -145,3 +145,4 @@ E:\requirement\AdminPanel\MVCRegistration\MVCRegistration\shanuMVCUserRoles\obj\
 E:\requirement\AdminPanel\MVCRegistration\MVCRegistration\shanuMVCUserRoles\obj\Debug\MVCUserRoles.dll
 E:\requirement\AdminPanel\MVCRegistration\MVCRegistration\shanuMVCUserRoles\obj\Debug\MVCUserRoles.Migrations._1st.resources
 E:\requirement\AdminPanel\MVCRegistration\MVCRegistration\shanuMVCUserRoles\obj\Debug\MVCUserRoles.csproj.GenerateResource.cache
+E:\requirement\AdminPanel\MVCRegistration\MVCRegistration\shanuMVCUserRoles\obj\Debug\MVCUserRoles.csprojAssemblyReference.cache
